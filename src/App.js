@@ -3,14 +3,17 @@ import logo from "./logo.svg";
 import "./App.css";
 import LikeCounter from "./components/LikeCounter";
 import LikeButton from "./components/LikeButton";
-import AwesomeAnimals from "./components/AwesomeAnimals"
+// import AwesomeAnimals from "./components/AwesomeAnimals"
+import ArticleList from "./components/ArticleList"
+
 
 function App() {
   return (
     <main>
       <LikeCounter />
       <LikeButton />
-      <AwesomeAnimals />
+      {/* <AwesomeAnimals /> */}
+      <ArticleList />
     </main>
     // <div className="App">
     //   <header className="App-header">
