@@ -1,13 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 import LikeCounter from "./components/LikeCounter";
+import LikeButton from "./components/LikeButton";
+import AwesomeAnimals from "./components/AwesomeAnimals"
 
 function App() {
   return (
     <main>
-    <LikeCounter />
-  </main>
+      <LikeCounter />
+      <LikeButton />
+      <AwesomeAnimals />
+    </main>
     // <div className="App">
     //   <header className="App-header">
     //     <img src={logo} className="App-logo" alt="logo" />
